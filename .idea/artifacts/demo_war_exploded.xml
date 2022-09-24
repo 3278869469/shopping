@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.0" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../WorkTool/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="demo/web/Web" />
+    </root>
+  </artifact>
+</component>
